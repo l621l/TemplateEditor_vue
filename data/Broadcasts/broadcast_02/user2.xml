@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<template destroy="self">
+  <show exists="skip" lifetime="infinite" />
+  <effects>
+    <animation z-buffer="100" opacity="false" loop="1" in_dissolve="10" out_dissolve="10" keep_alive="false" folder="C:\TemplateEditorData\Graphics\broadcast_02\animation.zip" turn_off_queue="true">
+      <hide type="stop" />
+      <offset x="0" y="0" />
+    </animation>
+  </effects>
+</template>

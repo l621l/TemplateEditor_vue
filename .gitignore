@@ -1,0 +1,63 @@
+# settings.xml, public/config.json and XML templates are tracked.
+# Machine-specific overrides and secrets are not.
+**/settings.local.xml
+**/preferences.local.xml
+/frontend/.env
+/frontend/.env.*.local
+appsettings.*.local.json
+*.http.user
+
+# Graphics and archives; data/*.xml and data/Broadcasts remain in Git.
+**/[Gg]raphics/
+**/[Uu]ploads/
+**/old_png/
+**/br0/
+**/br1/
+/init.json
+
+# Dependencies and build output
+**/[Bb]in/
+**/[Oo]bj/
+**/node_modules/
+**/dist/
+**/publish/
+**/artifacts/
+**/.cache/
+*.tsbuildinfo
+*.nupkg
+*.snupkg
+
+# Logs and test output
+**/[Ll]ogs/
+*.log
+*.dmp
+**/TestResults/
+**/coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor and OS state
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+*.sln.ide
+*.swp
+*.swo
+*.bak
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local certificates and secrets
+*.pfx
+*.p12
+*.key
+.env
+.env.local
+.env.*.local

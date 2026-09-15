@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<preferences>
+  <!-- Настройки эфиров и XML-шаблонов для TemplateEditor. -->
+  <presets>
+    <preset name="broadcast_01" id="0" folder="broadcast_01" channel="Broadcasts" caption="Эфир 1" />
+    <preset name="broadcast_02" id="1" folder="broadcast_02" channel="Broadcasts" caption="Эфир 2" />
+  </presets>
+  <templates>
+    <template bind="button_01" file="C:\TemplateEditorData\{channel}\{preset}\user1.xml">
+      <preset_parameters>
+        <parameters id_preset="0" text="Плашка" is_enabled="true" is_visible="true" first_action="start" show_edit="false" stop_clickable="true" />
+        <parameters id_preset="1" text="Плашка" is_enabled="true" is_visible="true" first_action="start" show_edit="false" stop_clickable="true" />
+      </preset_parameters>
+    </template>
+    <template bind="button_02" file="C:\TemplateEditorData\{channel}\{preset}\user2.xml">
+      <preset_parameters>
+        <parameters id_preset="0" text="Анимация" is_enabled="true" is_visible="true" first_action="start" show_edit="false" stop_clickable="true" />
+        <parameters id_preset="1" text="Анимация" is_enabled="true" is_visible="true" first_action="start" show_edit="false" stop_clickable="true" />
+      </preset_parameters>
+    </template>
+  </templates>
+</preferences>

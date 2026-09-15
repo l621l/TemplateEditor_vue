@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+    <!-- Укажите свои абсолютные пути к данным. -->
+    <listen_url>http://localhost:5087</listen_url>
+    <frontend_origin>http://localhost:8080</frontend_origin>
+    <default_preset>0</default_preset>
+    <fps>25</fps>
+    <path_to_pictures>C:\TemplateEditorData\Uploads</path_to_pictures>
+    <path_to_templates>C:\TemplateEditorData\Broadcasts</path_to_templates>
+    <path_to_prefs>C:\TemplateEditorData\preferences.xml</path_to_prefs>
+    <path_to_old_pictures>C:\TemplateEditorData\old_png</path_to_old_pictures>
+    <turn_off_queue_png>false</turn_off_queue_png>
+    <keep_alive_png>true</keep_alive_png>
+    <turn_off_queue_zip>true</turn_off_queue_zip>
+    <keep_alive_zip>false</keep_alive_zip>
+</settings>
